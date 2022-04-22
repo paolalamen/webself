@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, initial-scale-1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>POSTULER</title>
+	</head>
+	<body>
+		<form action"">
+			<h1>POSTULER</h1>
+	
+			<p>Nous allons gerer le html et le css ici pour notre inscription</p><i></i>
+			<fieldset>
+				<legend><span class="munber">1</span>Identification</legend>
+				<label for="name">Noms</label>
+				<input type="text" name="Noms">
+
+				<label for="email">Email</label>
+				<input type="email" name="Email">
+
+				<label for="mot de passse">Mot de passe</label>
+				<input type="password" name="password">
+
+				<label for="Statut">Statut</label>
+				<input type="radio" name="minor" value="Minor">
+				<label for="minor">Minor</label>
+				<input type="radio" name="major" value="Major">
+				<label for="major">Major</label>
+			</fieldset>
+			<fieldset>
+				<legend><span class="munber">2</span>Profil</fieldset>  </legend>
+				<label for="Biographie">Biographie</label>
+				<textarea name="" id="bio"> </textarea>
+
+
+				<label for="job">Specialite:</label>
+					<select name="job">
+						<optgroup label="web">
+							<option value="front">frontend</option>
+							<option value="html">html</option>
+							<option value="css">css</option>
+							<option value="javasrcipt">javasrcipt</option>
+						</optgroup>
+						<optgroup label=mobile>
+							<option value="android">android</option>
+							<option value="ios">html</ios>
+							<option value="mobile designer">mobile designer</option>
+							<option value="java">java</option>
+						</optgroup>	
+						<optgroup label="business">
+							<option value="entreprise">ce bussiness possede une entreprise</option>
+							<option value="freelancer">c'est une freelance</option>
+						</optgroup>
+					</select>
+				<label for="centre d'interet">centre d'interet</label>	
+				<input type="checkbox" name="" id="sport" value="sport">
+				<label for="football">football</label>
+				<input type="checkbox" name="" id="football value="football">
+				<label for="dance">dance</label>
+				<input type="checkbox" name="" id="dance value="dance">	
+				<label for="handball">hanball</label>
+				<input type="checkbox" name="" id="hanball" value="handball">
+			</fieldset>
+			<button type="submit">Postuler</button>
+		</form>
+	</body>
+</html>
